@@ -1,0 +1,27 @@
+{
+  "pages":[
+
+    "pages/map/map",
+    "pages/login/login",
+    "pages/suggestion/suggestion",
+    "pages/index/index",
+    "pages/logs/logs"
+
+  ],
+
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#22a4f1",
+    "navigationBarTitleText": "蒙尘的精灵",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,86 @@
+<view class="con">
+
+  <view wx:if="{{userinfo.avatarUrl}}" class="user_img_wrap">
+    <view class="user_info">
+      <image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+      <view class="user_name">{{userinfo.nickName}}</view>
+    </view>
+  </view>
+
+  <view class="suggestBox">
+    <view class="h">
+      <view class="h1"> 你好！</view>
+      <view class="h2">欢迎来到蒙尘的精灵</view>
+    </view>
+    <view class="addsug">
+      <textarea placeholder="亲~ 请输入您的建议：" bindinput="handleTextInput" model:value="{{textVal}}">
+        </textarea>
+      <view class="fb_tool">
+        <!-- <button bindtap="handleChooseImg" class="photo_btn">+</button>      -->
+        <button bindtap="handleChoseFiles" class="pho_btn">+</button>
+        <view class="up_imgs">
+          <image src="../../imgs/one.jpg"></image>
+          <!-- <icon  type="success_no_circle" size="23" color="white"></icon> -->
+          <icon type="clear" size="23" color="red" role='img'></icon>
+        </view>
+        <view class="up_imgs">
+          <image src="../../imgs/two.png"></image>
+          <!-- <icon  type="success_no_circle" size="23" color="white"></icon> -->
+          <icon type="clear" size="23" color="red" role='img'></icon>
+        </view>
+        <view class="up_imgs">
+          <image src="../../imgs/three.jpg"></image>
+          <!-- <icon  type="success_no_circle" size="23" color="white"></icon> -->
+          <icon type="clear" size="23" color="red" role='img'></icon>
+        </view>
+        <view class="up_imgs">
+          <image src="../../imgs/four.jpg"></image>
+          <!-- <icon  type="success_no_circle" size="23" color="white"></icon> -->
+          <icon type="clear" size="23" color="red" role='img'></icon>
+        </view>
+        <view class="up_imgs">
+          <image src="../../imgs/fifth.jpg"></image>
+          <!-- <icon  type="success_no_circle" size="23" color="white"></icon> -->
+          <icon type="clear" size="23" color="red" role='img'></icon>
+        </view>
+        <view class="up_imgs">
+          <image src="../../imgs/six.jpg"></image>
+          <!-- <icon  type="success_no_circle" size="23" color="white"></icon> -->
+          <icon type="clear" size="23" color="red" role='img'></icon>
+        </view>
+        <view class="up_imgs">
+          <image src="../../imgs/one.jpg"></image>
+          <!-- <icon  type="success_no_circle" size="23" color="white"></icon> -->
+          <icon type="clear" size="23" color="red" role='img'></icon>
+        </view>
+        <view class="up_imgs">
+          <image src="../../imgs/one.jpg"></image>
+          <!-- <icon  type="success_no_circle" size="23" color="white"></icon> -->
+          <icon type="clear" size="23" color="red" role='img'></icon>
+        </view>
+
+
+        <!-- <view class="up_img_item"
+          wx:for="{{chooseImgs}}"
+          wx:key="*this"
+          bindtap="handleRemoveImg"
+          data-index="{{index}}"
+          > 
+          <UpImg src="{{chooseImgs[0]}}" ></UpImg>
+         </view>  -->
+      </view>
+    </view>
+  </view>
+  <button bindtap="handleFormSubmit" class="submit_btn">提交</button>
+  <!-- <button bindtap="handleConsole" class="submit_btn">提交</button> -->
+
+</view>
+<!-- <view id="container">
+	<view>计划做一个对当前用户进行定位，并展示其附近的流浪动物定位</view>
+	<open-data type="userAvatarUrl"></open-data>
+	<open-data type="userNickName"></open-data>
+	<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+	<form>
+		<textarea>建议：</textarea>
+	</form>
+</view> -->

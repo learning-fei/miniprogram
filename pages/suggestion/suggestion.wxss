@@ -1,0 +1,160 @@
+.suggestBox {
+  width: 82%;
+  /* height: 811rpx; */
+  /* background-color: antiquewhite; */
+  border: 2rpx solid #bbb9ba;
+  box-shadow: #bbb9ba 1rpx 1rpx 22rpx;
+  position: relative;
+
+}
+
+.addsug {
+    /* width: 100%; */
+    /* height: 558rpx; */
+    border: #bababa 1rpx solid;
+    padding: 19rpx;
+    margin: 22rpx;
+}
+textarea{
+  width: 100%;
+  height: 461rpx;
+  
+}
+.normal_btn {
+  width: 50%;
+  height: 50rpx;
+  background-color: #569ae5;
+  color: white;
+  text-align: center;
+  margin-top: 30rpx;
+  border-radius: 5px;
+}
+
+.check_btn {
+  background-color: tomato;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 34rpx;
+}
+
+.h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sug {
+  padding: 23rpx 31rpx;
+}
+
+.h3 {
+  margin-bottom: 10rpx;
+}
+
+.user_btn {
+  position: fixed;
+  width: 200rpx;
+  height: 200rpx;
+  background-color: turquoise;
+}
+
+.hover {
+  background-color: tomato;
+}
+
+.user_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin: 20rpx;
+}
+
+.user_name {
+  margin-bottom: 15rpx;
+}
+
+.submit_btn {
+  background-color: #22a4f1;
+  color: white;
+  margin-top: 18rpx;
+  display: inline-block;
+  /* padding: 13px 25px; */
+  /* font-size: 19px; */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15rpx;
+  box-shadow: 0 9rpx #999;
+  margin-top: 37rpx;
+}
+
+.submit_btn:active {
+  background-color: #4f79e5;
+  box-shadow: 0 5rpx #666;
+  transform: translateY(4rpx);
+}
+
+
+ .fb_tool {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-bottom: 30rpx; */
+}
+ .fb_tool .pho_btn,image {
+  margin: 0;
+    width: 119rpx;
+    height: 119rpx;
+    font-size: 86rpx;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    margin-right: 15rpx;
+    margin-bottom: 17rpx;
+    border-radius: 10rpx;
+}
+ .fb_tool .up_img_item {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+ .form_btn_wrap {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+ .form_btn_wrap button {
+  margin: 0;
+  width: 30%;
+}
+
+.fb_tool .up_imgs{
+  position: relative;
+}
+.fb_tool .up_imgs icon{
+  position: absolute;
+  top: -13rpx;
+  right: 3rpx;
+}
